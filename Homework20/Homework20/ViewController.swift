@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         button.layer.cornerRadius = 10
         defoltButton.layer.cornerRadius = 10
     }
- 
+
     func attributedString() {
         let attributedString = NSMutableAttributedString(string: plainString)
         
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentedControlPressed(_ sender: UISegmentedControl) {
-        if segmentedControl.selectedSegmentIndex == 0 {
+        if segmentedControl.selectedSegmentIndex == 1 {
             attributedString()
         } else {
             labelText.text = plainString
